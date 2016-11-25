@@ -1,0 +1,11 @@
+/*-------------GENERAL-------------*/
+*{
+    outline: 1px solid #ffa3f1;
+}
+
+
+/*-------------HEADER-------------*/
+header{
+    background-image: url(../image/large.jpg);
+    
+}

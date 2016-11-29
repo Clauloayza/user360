@@ -217,13 +217,13 @@ footer .copy{
     font-weight: bold;
 }
 .formulario .i{
-    width: 350px;
+    width: 77%;
     float: left;
     margin-bottom: 10px;
 }
 .formulario textarea{
     float: left;
-    width: 350px;
+    width: 77%;
     margin-bottom: 10px;
     height: 130px;
 }
@@ -232,22 +232,22 @@ footer .copy{
     background:#19a6e0; 
     color: #fff;
     text-align: center;
-    width: 110px;
+    width: 25%;
 }
 .formulario .box{
     float:left;
-    width: 240px;
+    width: 50%;
     margin: 15px 73px;
 }
 .formulario .powered{
     text-align: left;
     margin-left: 20px;
-    width: 230px;
+    width: 35%;
     }
 .formulario .report{
     text-align: right;
-    width: 200px;
-    
+    width: 20%;
+    margin-left: 290px;
 }
 hr{
     width: 600px;

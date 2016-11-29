@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /*-------------HEADER-------------*/
@@ -41,4 +42,101 @@ header h1{
 }
 header .azul{
     background: #004aaf;
+    height: 220px;
 }
+.azul h3{
+    font-size: 35px;
+    margin-top: 65px;
+}
+header button{
+    background: #004aaf;
+    border: 3px solid #fff 0.5;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3px 10px;
+}
+header .boton{
+   margin-top: 80px; 
+   width: 180px;    
+}
+/*-------------NUESTROS SERVICIOS-------------*/
+.servicios h4{
+    text-align: center;
+    color: skyblue;
+    font-size: 30px;
+    margin: 90px 0;
+}
+.icon-container{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    color: skyblue;
+}
+.container h5{
+    text-align: center;
+    color: #17a0c9;
+    font-size: 19px;
+    width: 170px;
+    margin: auto;
+}
+.container .video{
+   width: 100px; 
+}
+.container p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+}
+/*-------------EJEMPLO-------------*/
+.separador{
+    margin: 60px 0;
+}
+.ejemplo h4{
+    color: skyblue;
+    font-size: 30px;
+    width: 180px;
+    display: inline-block;
+    text-align: center
+}
+.ejemplo .logo{
+    width: 50%;
+}
+.ejemplo p{
+    text-align: left;
+}
+.ejemplo .flecha{
+    margin-bottom: 60px;
+}
+.ejemplo .inf{
+    text-align: left
+}
+.inf h5{
+    margin-left: 0;
+    width: 200px;
+    padding: 0;
+    color: #000;
+}
+.inf h6{
+    color: skyblue;
+    margin-top: 30px;
+}
+.inf p{
+   font-size: 12px;
+   margin-top: 10px;
+}
+.inf ul li{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+

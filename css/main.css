@@ -39,3 +39,6 @@ header h1{
     display: table-cell;
     vertical-align: middle;
 }
+header .azul{
+    background: #004aaf;
+}

@@ -98,9 +98,9 @@ header .boton{
     font-size: 30px;
     width: 180px;
     display: inline-block;
-    text-align: center
+    text-align: center;
 }
-.ejemplo .logo{
+.logo{
     width: 50%;
 }
 .ejemplo p{
@@ -123,16 +123,76 @@ header .boton{
     margin-top: 30px;
 }
 .inf p{
-   font-size: 12px;
    margin-top: 10px;
 }
 .inf ul li{
-    font-size: 12px;
     margin-bottom: 7px;
 }
-
-
-
+/*------------USER-------------*/
+.user h4{
+    color: skyblue;
+    font-size: 30px;
+    width: 180px;
+    display: inline-block;
+}
+.uso p{
+    text-align: left    
+}
+.uso ul li{
+    text-align: left;
+    margin-bottom: 7px;
+    
+}
+.uso small{
+    color: skyblue;
+    font-weight: bold;
+}
+/*------------PRUEBA------------*/
+.container .prueba{
+    color: #fff;
+}
+.prueb{
+    background: #0688cc;
+}
+.prueba p{
+    margin-top: 5px;
+    margin-bottom: 20px
+}
+.prueba button{
+   background: #0688cc;
+   border-radius: 5px;
+   border: 3px solid #fff 0.5;
+    font-size: 18px;
+    padding: 3px 15px;
+}
+.prueba .boton{
+    margin-top: 30px;
+}
+/*------------FOOTER------------*/
+footer{
+    background: #0e1824;
+    color: #fff;
+}
+footer .write{
+    text-align: left
+}
+footer p{
+    width: 150px;
+    padding: 0;
+}
+footer .icon{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 30px;
+    color: skyblue;
+    margin-right: 0;
+}
+footer .copy{
+    float: right;
+    width: 300px;
+}
 
 
 

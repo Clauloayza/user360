@@ -22,7 +22,6 @@ header{
 header img{
     width: 60%;
 }
-
 header .frase{
    height: 460px; 
    text-align: center;
@@ -35,7 +34,7 @@ header h1{
 }
 header .azul{
     background: #004aaf;
-    height: 220px;
+    height: 210px;
 }
 .azul h3{
     font-size: 35px;

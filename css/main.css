@@ -196,6 +196,7 @@ footer .copy{
 .formulario{
     background: #fff;
     width: 700px;
+    height: auto;
     margin: auto;
     margin-top: 70px;
     border-top: 6px solid skyblue;

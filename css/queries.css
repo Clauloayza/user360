@@ -1,1 +1,7 @@
 /*------------INDEX HTML------------*/
+@media screen and (max-width: 242px){
+    .header img{
+        width: 20px;
+    }
+    
+}

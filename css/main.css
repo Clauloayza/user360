@@ -8,37 +8,36 @@ body{
 
 /*-------------HEADER-------------*/
 .oscuro{
-    background: #000;
-    opacity: 0.5;
-    padding-top: 40px;
+    background: rgba(0, 0, 0, 0.44);
+    
 }
 header{
     background-image: url(../image/large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 760px;
     color: #fff;
 }
 header img{
     width: 200px;
 }
+header .navbar-static-top{
+    background: rgba(0, 0, 0, 0);
+    border: inherit;
+}
 header .frase{
-   height: 460px; 
    text-align: center;
-   display: table;
+   margin: 170px 0;
 }
 header h1{
-   font-size: 60px;
-    display: table-cell;
-    vertical-align: middle;
+   font-size: 40px;
 }
 header .azul{
-    background: #004aaf;
-    height: 190px;
+    background: rgba(0, 74, 175, 0.65);
+    height: 200px;
 }
 .azul h3{
     font-size: 35px;
-    margin-top: 65px;
+    margin-top: 20px;
 }
 header button{
     background: #004aaf;
@@ -265,3 +264,4 @@ hr{
     color: #061980;
     text-decoration: underline;
 }
+

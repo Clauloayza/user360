@@ -24,12 +24,16 @@ header .navbar-static-top{
     background: rgba(0, 0, 0, 0);
     border: inherit;
 }
+header ul {
+    display: block;
+    float: right;
+    
+}
+
 header .frase{
    text-align: center;
    margin: 170px 0;
-}
-header h1{
-   font-size: 40px;
+   font-size: 40px
 }
 header .azul{
     background: rgba(0, 74, 175, 0.65);
@@ -47,8 +51,10 @@ header button{
     padding: 3px 10px;
 }
 header .boton{
-   margin-top: 80px; 
-   width: 180px;    
+   margin-top: 50px; 
+   width: 150px;
+    
+   
 }
 /*-------------NUESTROS SERVICIOS-------------*/
 .servicios h4{
@@ -83,10 +89,19 @@ header .boton{
     font-size: 16px;
     margin-top: 25px;
 }
+
+
 /*-------------EJEMPLO-------------*/
 .separador{
     margin: 60px 0;
+    border-top: 1px solid #ccc;
+    margin: 100px 0 10px;
 }
+.separador img{
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+
 .ejemplo h4{
     color: skyblue;
     font-size: 30px;
@@ -104,25 +119,37 @@ header .boton{
     margin-bottom: 60px;
 }
 .ejemplo .inf{
-    text-align: left
+    text-align: left;
+   
 }
 .inf h5{
     margin-left: 0;
     width: 200px;
     padding: 0;
     color: #000;
+    margin-top: 20px;
 }
 .inf h6{
     color: skyblue;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 13px;
 }
 .inf p{
    margin-top: 10px;
+    font-size: 13px;
 }
 .inf ul li{
     margin-bottom: 7px;
+     font-size: 12px;
 }
 /*------------USER-------------*/
+.border{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.separator{
+    transform: translateX(-20%) translateY(-50%);
+}
 .user h4{
     color: skyblue;
     font-size: 30px;
@@ -203,12 +230,12 @@ footer .copy{
     background-image: url(../image/large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 600px;
    
 }
 .formulario{
     background: #fff;
-    width: 700px;
-    height: auto;
+    width: 60%;
     margin: auto;
     margin-top: 70px;
     border-top: 6px solid skyblue;
@@ -248,16 +275,17 @@ footer .copy{
 }
 .formulario .powered{
     text-align: left;
-    margin-left: 20px;
     width: 35%;
+    margin-left: 30px;
     }
 .formulario .report{
     text-align: right;
     width: 20%;
-    margin-left: 290px;
+    float: right;
+    margin-right: 30px;
 }
 hr{
-    width: 600px;
+    width: 90%;
     margin-left: 35px;
 }
 .formulario a{

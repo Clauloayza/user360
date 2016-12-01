@@ -1,7 +1,20 @@
 /*------------INDEX HTML------------*/
-@media screen and (max-width: 242px){
-    .header img{
-        width: 20px;
+@media screen and (max-width: 1022px){
+    header .list-menu{
+        width: 100%;
+        padding: 0 80px;
     }
-    
+    header img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px){
+    .formulario{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 500px){
+    .formulario{
+        width: 250px;
+    }
 }

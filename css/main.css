@@ -8,7 +8,7 @@ body{
 
 /*-------------HEADER-------------*/
 .oscuro{
-    background: rgba(0, 0, 0, 0.44);
+    background: rgba(0, 0, 0, 0.4);
     
 }
 header{
@@ -19,16 +19,13 @@ header{
 }
 header img{
     width: 200px;
+    height: auto;
 }
 header .navbar-static-top{
     background: rgba(0, 0, 0, 0);
     border: inherit;
 }
-header ul {
-    display: block;
-    float: right;
-    
-}
+
 
 header .frase{
    text-align: center;
@@ -40,15 +37,16 @@ header .azul{
     height: 200px;
 }
 .azul h3{
-    font-size: 35px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 50px;
 }
-header button{
-    background: #004aaf;
+header .azul button{
+    background: rgba(0, 74, 175, 0);
     border: 3px solid #fff 0.5;
     border-radius: 5px;
     font-size: 18px;
-    padding: 3px 10px;
+    padding: 9px;
+    width: 150px;
 }
 header .boton{
    margin-top: 50px; 
@@ -61,7 +59,7 @@ header .boton{
     text-align: center;
     color: skyblue;
     font-size: 30px;
-    margin: 90px 0;
+    margin: 85px 0;
 }
 .icon-container{
     width: 150px;
@@ -80,14 +78,16 @@ header .boton{
     font-size: 19px;
     width: 170px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .container .video{
    width: 100px; 
 }
-.container p{
-    text-align: center;
-    font-size: 16px;
-    margin-top: 25px;
+.servicios .container p{
+    font-size: 15px;
+    margin: auto;
+    width: 270px;
 }
 
 
@@ -96,10 +96,11 @@ header .boton{
     margin: 60px 0;
     border-top: 1px solid #ccc;
     margin: 100px 0 10px;
+    
 }
 .separador img{
-    transform: translateX(-50%) translateY(-50%);
-    
+    transform: translateX(-24%) translateY(-50%);
+    width: 70px;
 }
 
 .ejemplo h4{
@@ -142,22 +143,42 @@ header .boton{
     margin-bottom: 7px;
      font-size: 12px;
 }
+.step1, .step2, .step3
+{
+	position: relative;
+}
+
+.icon-blue
+{
+	border-radius:40px;
+	background: #299ff4;
+	padding: 10px;
+	font-size: 20px;
+	color: #FFF;
+	position: absolute;
+	top:15%;
+	transform: translateX(-120%);
+	
+}
 /*------------USER-------------*/
 .border{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
+    margin-top: 60px;
 }
 .separator{
-    transform: translateX(-20%) translateY(-50%);
+    transform: translateX(-24%) translateY(-50%);
+    width: 70px;
 }
 .user h4{
     color: skyblue;
     font-size: 30px;
     width: 180px;
     display: inline-block;
+     margin-bottom: 40px;
 }
 .uso p{
-    text-align: left    
+    text-align: left;
 }
 .uso ul li{
     text-align: left;
@@ -205,7 +226,8 @@ footer{
     color: #fff;
 }
 footer .write{
-    text-align: left
+    text-align: left;
+    margin-top: 20px;
 }
 footer p{
     width: 150px;
@@ -219,6 +241,7 @@ footer .icon{
     font-size: 30px;
     color: skyblue;
     margin-right: 0;
+    margin-top: 20px;
 }
 footer .copy{
     float: right;
